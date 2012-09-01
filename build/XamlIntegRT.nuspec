@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>XamlIntegRT</id>
+    <title>XamlIntegRT</title>
+    <version>1.0.0</version>
+    <authors>Andrei Marukovich</authors>
+    <owners>Andrei Marukovich</owners>
+    <licenseUrl>http://opensource.org/licenses/ms-pl.html</licenseUrl>
+    <projectUrl>https://github.com/AndreiMarukovich/XamlIntegRT</projectUrl>
+    <iconUrl>http://lunarfrog.com/images/projects/XamlIntegRT.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>XamlIntegRT helps to prevent unauthorized modifications of XAML files for Windows 8 apps</description>
+    <releaseNotes>Initial release</releaseNotes>
+    <tags>WinRT win8 xaml protect advertisement</tags>
+  </metadata>
+  <files>
+    <file src="..\src\XamlIntegRT\bin\Release\XamlIntegRT.dll" target="lib\winrt45\XamlIntegRT.dll" />
+  </files>
+</package>
